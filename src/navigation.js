@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Αρχική',
       links: [
         {
           text: 'SaaS',
@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Σελίδες',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -43,7 +43,7 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Επικοινωνία',
           href: getPermalink('/contact'),
         },
         {
