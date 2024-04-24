@@ -24,14 +24,14 @@ const metadata = {
   <Hero
   image={{ src: '~/assets/images/final-2-66830870.jpeg', alt: 'main index image' }}
     actions={[
-      {
-        variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
-      },
-      { text: 'Learn more', href: '#features' },
+      // {
+      //   variant: 'primary',
+      //   text: 'Get template',
+      //   href: 'https://github.com/onwidget/astrowind',
+      //   target: '_blank',
+      //   icon: 'tabler:download',
+      // },
+      { variant: 'primary',text: 'Μάθετε περισσότερα', href: '#news' },
     ]}
   >
     <Fragment slot="title">
@@ -54,6 +54,7 @@ const metadata = {
   <!-- HighlightedPosts Widget ******* -->
 
   <BlogLatestPosts
+    id="news"
     title="Τα νέα μας"
     information={`Ενημερωθείτε για τις δράσεις του ΕΟΒ`}
   />
