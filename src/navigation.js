@@ -3,116 +3,124 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Αρχική',
+      text: 'Ίδρυμα',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
-    },
-    {
-      text: 'Σελίδες',
-      links: [
-        {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
-        },
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
+          text: 'Διοικητικό Συμβούλιο',
           href: getPermalink('/about'),
         },
         {
-          text: 'Επικοινωνία',
-          href: getPermalink('/contact'),
+          text: 'Καταστατικό',
+          href: getPermalink('/about'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'Ποιοί είμαστε',
+          href: getPermalink('/about'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
-    },
-    {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'Ιστορία',
+          href: getPermalink('/about'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'Εγκαταστάσεις',
+          href: getPermalink('/about'),
         },
       ],
     },
     {
-      text: 'Blog',
+      text: 'Έργο',
       links: [
         {
-          text: 'Blog List',
+          text: 'Προγράμματα',
+          href: getPermalink('/services'),
+        },
+        {
+          text: 'Κοινοτικά Προγράμματα',
+          href: getPermalink('/services'),
+        },
+        // {
+        //   text: 'Pricing',
+        //   href: getPermalink('/pricing'),
+        // },
+        // {
+        //   text: 'About us',
+        //   href: getPermalink('/about'),
+        // },
+        // {
+        //   text: 'Επικοινωνία',
+        //   href: getPermalink('/contact'),
+        // },
+        // {
+        //   text: 'Terms',
+        //   href: getPermalink('/terms'),
+        // },
+        // {
+        //   text: 'Privacy policy',
+        //   href: getPermalink('/privacy'),
+        // },
+      ],
+    },
+    {
+      text: 'Τρόποι Στήριξης',
+      links: [
+        {
+          text: 'Εθελοντισμός',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Υλική Στήριξη',
+          href: getPermalink('/about'),
+        },
+        {
+          text: 'Οικονομική Στήριξη',
+          href: getPermalink('/about'),
+        },
+        // {
+        //   text: 'Product Details (or Services)',
+        //   href: getPermalink('/landing/product'),
+        // },
+        // {
+        //   text: 'Coming Soon or Pre-Launch',
+        //   href: getPermalink('/landing/pre-launch'),
+        // },
+        // {
+        //   text: 'Subscription',
+        //   href: getPermalink('/landing/subscription'),
+        // },
+      ],
+    },
+    {
+      text: 'Χορηγοί',
+      href: getPermalink('/about'),
+    },
+    {
+      text: 'Νέα',
+      links: [
+        {
+          text: 'Τελευταία νέα',
           href: getBlogPermalink(),
         },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        // {
+        //   text: 'Article',
+        //   href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+        // },
+        // {
+        //   text: 'Article (with MDX)',
+        //   href: getPermalink('markdown-elements-demo-post', 'post'),
+        // },
+        // {
+        //   text: 'Category Page',
+        //   href: getPermalink('tutorials', 'category'),
+        // },
+        // {
+        //   text: 'Tag Page',
+        //   href: getPermalink('astro', 'tag'),
+        // },
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Επικοινωνία',
+      href: getPermalink('/contact'),
     },
   ],
 // actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],

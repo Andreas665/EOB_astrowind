@@ -1,6 +1,6 @@
 site:
   name: EOB
-  site: 'https://astrowind.vercel.app'
+  site: 'https://eobastro.netlify.app'
   base: '/'
   trailingSlash: false
 
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: el
   textDirection: ltr
 
 apps:

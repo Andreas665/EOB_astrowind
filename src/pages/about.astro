@@ -7,7 +7,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'About us',
+  title: 'Ποιοί είμαστε',
 };
 ---
 
@@ -15,25 +15,26 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="About us"
+    tagline="Ποιοί είμαστε"
     image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: '~/assets/images/365a8cf2efba49f1a22fcc268aab259b.jpg',
       alt: 'Caos Image',
     }}
   >
     <Fragment slot="title">
-      Elevate your online presence with our <br />
-      <span class="text-accent dark:text-white highlight"> Beautiful Website Templates</span>
+      Το Εκκλησιαστικό Ορφανοτροφείο <br />
+      <span class="text-accent dark:text-white highlight"> Βουλιαγμένης</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Donec efficitur, ipsum quis congue luctus, mauris magna convallis mauris, eu auctor nisi lectus non augue. Donec
-      quis lorem non massa vulputate efficitur ac at turpis. Sed tincidunt ex a nunc convallis, et lobortis nisi tempus.
-      Suspendisse vitae nisi eget tortor luctus maximus sed non lectus.
+      Ιδρύθηκε το  1917 και έχει προστατεύσει χιλιάδες παιδιών έως σήμερα. Πρόεδρος· ο Μακαριώτατος Αρχιεπίσκοπος Αθηνών και πάσης Ελλάδος κ. Ιερώνυμος Β´.  
+      Αντιπρόεδρος· Θεοφιλ. Επίσκοπος Ανδρούσης κ. Κωνστάντιος.
+
+
     </Fragment>
   </Hero>
 
-  <!-- Stats Widget ****************** -->
+  <!-- Stats Widget ****************** 
 
   <Stats
     title="Statistics about us"
@@ -43,9 +44,9 @@ const metadata = {
       { title: 'Templates', amount: '12' },
       { title: 'Awards', amount: '24' },
     ]}
-  />
+  />-->
 
-  <!-- Features3 Widget ************** -->
+  <!-- Features3 Widget ************** 
 
   <Features3
     title="Our templates"
@@ -72,9 +73,9 @@ const metadata = {
         icon: 'tabler:template',
       },
     ]}
-  />
+  />-->
 
-  <!-- Features3 Widget ************** -->
+  <!-- Features3 Widget ************** 
 
   <Features3
     columns={3}
@@ -121,9 +122,9 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'Colorful Image',
     }}
-  />
+  />-->
 
-  <!-- Steps2 Widget ****************** -->
+  <!-- Steps2 Widget ****************** 
 
   <Steps2
     title="Our values"
@@ -145,9 +146,9 @@ const metadata = {
           'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
       },
     ]}
-  />
+  />-->
 
-  <!-- Steps2 Widget ****************** -->
+  <!-- Steps2 Widget ****************** 
 
   <Steps2
     title="Achievements"
@@ -176,9 +177,9 @@ const metadata = {
         icon: 'tabler:award',
       },
     ]}
-  />
+  />-->
 
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 Widget ************** 
 
   <Features2
     title="Our locations"
@@ -202,9 +203,9 @@ const metadata = {
         description: '3456 Lorem Ipsum St, 34567, São Paulo',
       },
     ]}
-  />
+  />-->
 
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 Widget ************** 
 
   <Features2
     title="Technical Support"
@@ -224,5 +225,5 @@ const metadata = {
         icon: 'tabler:headset',
       },
     ]}
-  />
+  />-->
 </Layout>
